@@ -5,9 +5,9 @@ class Story {
   String choiceTwo;
 
   // Constructor
-  Story(
-    String storyTitle,
-    String choice1,
-    String choiceTwo,
-  );
+  Story({
+    this.storyTitle,
+    this.choiceOne,
+    this.choiceTwo,
+  });
 }
